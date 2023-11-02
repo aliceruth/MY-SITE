@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<style>
+    .parentdiv{
+        background-color: green;
+        height: 1200px;
+        width: 1200px;
+        color: deeppink;
+    }
+    .mypictureprofile{
+        background-color: rgb(113, 181, 240);
+        height: 30%;
+        width: 30%;
+        margin-left: 10px;
+        float: left;
+        padding-right: 10px;
+        color: rgb(247, 142, 6);
+        
+    }
+    .myprofiledetails{
+        background-color: aqua;
+        height: 30%;
+        width: 30%;
+        margin-right: 10px;
+        float: right;
+        padding-left: 10px;
+        color: brown;
+    }
+    .myeducationbackgroud{
+    background-color: gold;
+    height:30%;
+    width: 30%;
+    float: right;
+    margin-right: 40px;
+    color: blue;       
+    }
+    
+    .nav ul a{
+        background-color: blue;
+        color: rgb(72, 236, 80);
+        
+    }
+    .nav ul a:hover{
+        background-color: blueviolet;
+        color: bisque;
+    }
+   
+</style>
+<body>
+    <nav class="nav">
+        <ul>
+        <a href="index.html">openindex page</a>
+        <a href="skills.html">open skills page</a>
+        <a href="contacts.html">open contacts page</a>
+        <a href="gallery.html">open gallery page</a>
+        </ul>    
+    </nav>
+    
+    <!--this is a parent div with two nested divs-->
+    <div class="parentdiv">
+        <h1>This is my profile</h1>
+        <!--this is my picture profile-->
+        <div class="mypictureprofile">
+            <h1>This is my profile picture</h1>
+            <img src="alice.jpg" height="30%" width="30%" alt="this is a ugandan lady">
+            <h1>NAMULI ALICE RUTH</h1>
+        </div>
+        <!--this is my profile details-->
+        <div class="myprofiledetails">
+            <h1>My profile details</h1>
+            <ol>
+                <li>NAME: NAMULI ALICE RUTH</li>
+                <li>REG NO: 22/DIT/BU/R/0007</li>
+                <li>EMAIL: aliceruthnam@gmail.com</li>
+                <li>ADDRESS: KIWENDA</li>
+                <li>GENDER: FEMALE</li>
+                <li>NATIONALITY: UGANDAN</li>
+                <li>RELIGION: ANGLICAN</li>
+            </ol>
+        </div>
+
+        <div class="myeducationbackgroud">
+            <H1>MY EDUCATION BACKGROUND</H1>
+            <ol>
+            <li>From 2022-2024,DIPLOMA award from Bugema University</li>
+            <li>From 2017-2018,UACE slip from Atlas High School-Gayaza</li>
+            <li>From 2013-2016,UCE slip from Atlas High School-Gayaza</li>
+            <li>From 2004-2012,PLE slip from Nabagereka Primary School</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+</html>
